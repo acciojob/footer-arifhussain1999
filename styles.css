@@ -95,3 +95,6 @@ footer {
 img{
 	width:40px;
 }
+.media-icons {
+    display: flex;  /* Ensure the display is set to flex */
+}
