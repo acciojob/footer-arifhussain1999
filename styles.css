@@ -1,1 +1,97 @@
-/* your code here */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+footer {
+    background-color: #000;
+    color: #fff;
+    padding: 20px 0;
+}
+
+.content {
+    max-width: 1200px;
+    margin: auto;
+    padding: 0 20px;
+}
+
+.top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-bottom: 20px;
+}
+
+.logo-details .logo_name {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.media-icons a {
+    color: #fff;
+    margin: 05px;
+    font-size: 1.2em;
+    text-decoration: none;
+}
+
+.link-boxes {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.box {
+    flex: 1;
+    min-width: 200px;
+    margin: 20px 0;
+}
+
+.box h3 {
+    border-bottom: 2px solid #fff;
+    display: inline-block;
+    margin-bottom: 10px;
+}
+
+.box ul {
+    list-style: none;
+    padding: 0;
+}
+
+.box ul li {
+    margin: 5px 0;
+}
+
+.box ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.bottom-details {
+    text-align: center;
+    border-top: 1px solid #333;
+    padding: 10px 0;
+    margin-top: 20px;
+}
+
+.bottom-details a {
+    color: #fff;
+    text-decoration: none;
+}
+
+@media (max-width: 768px) {
+    .top, .link-boxes {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .box {
+        margin: 10px 0;
+        text-align: center;
+    }
+}
+img{
+	width:40px;
+}
